@@ -87,10 +87,10 @@ Isi tabel berikut setelah seluruh notebook dijalankan.
 
 | Model | Accuracy | Precision | Recall | F1-score | AUC | Waktu Latih (s) | Parameter Terlatih |
 |-------|----------|-----------|--------|----------|-----|-----------------|--------------------|
-| CNN | - | - | - | - | - | - | - |
-| BiLSTM | - | - | - | - | - | - | - |
-| CNN → BiLSTM | - | - | - | - | - | - | - |
-| BiLSTM → CNN | - | - | - | - | - | - | - |
+| CNN | 0.90 | 0.90 | 0.89 | 0.89 | 0.95 | 24.29 | 1475714 |
+| BiLSTM | 0.88 | 0.88 | 0.89 | 0.88 | 0.95 | 24.60 | 920066 |
+| CNN → BiLSTM | 0.88 | 0.89 | 0.86 | 0.87 | 0.95 | 41.64 | 2001794 |
+| BiLSTM → CNN | 0.88 | 0.90 | 0.85 | 0.87 | 0.95 | 17.03 | 1412226 |
 
 ## Struktur Repositori
 
@@ -102,11 +102,3 @@ Isi tabel berikut setelah seluruh notebook dijalankan.
 ├── CNN_BiLSTM_berbasis_Embedding_IndoBERT.ipynb
 └── BiLSTM_CNN_berbasis_Embedding_IndoBERT.ipynb
 ```
-
-## Referensi
-
-- Wilie, B., et al. (2020). *IndoNLU: Benchmark and Resources for Evaluating Indonesian Natural Language Understanding.* Model: [`indobenchmark/indobert-base-p1`](https://huggingface.co/indobenchmark/indobert-base-p1)
-
-## Lisensi
-
-Tentukan lisensi sesuai kebutuhan (misalnya MIT) dengan menambahkan file `LICENSE`.
